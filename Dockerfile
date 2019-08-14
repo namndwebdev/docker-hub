@@ -18,4 +18,6 @@ COPY start.sh /venv
 
 RUN chmod a+x /venv/*
 
+ENTRYPOINT ["/start.sh"]
+
 EXPOSE 80
